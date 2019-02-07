@@ -17,12 +17,28 @@
 public class Main {
 
   public static void main(String[] args) {
-    System.out.println("Check out this crazy project.");
+    System.out.println("Check out this \"crazy\" project.");
 
-//1
+    // 1
+    boolean bool1 = true;
     int int1 = 2;
     double double1 = 2.0;
     String string1 = "2";
+    System.out.println((double)int1);
+    
+    if (bool1 = true) {
+      System.out.println(string1);
+    if (bool1 = false) {
+      System.out.println(double1);
+    }
+    }
+    // A variable is a value that can change depending on the conditions or the
+    // information passed to the program.
+    
+    // Scope is the visibility of variables.
+    final int score = 100; 
+    // The final keyword makes the variable a constant (it must be initialized)
+    // Final int score = 100 means that the score will not pass the number 100
+    
   }
 }
- 
