@@ -1,5 +1,6 @@
 // Marcos Machado
-//
+// This program is to see what side a coin flips.
+// Head is true, while tails is false.
 
 // Types of Data and Ranges:
 // Byte: -128 to 127
