@@ -26,6 +26,8 @@ public class Main {
     double double1 = 2.0;
     String string1 = "2";
     System.out.println((double)int1);
+    // Casting means that one file will change to another.
+    // For example, int1 becomes a double.
     
     if (bool1 = true) {
       System.out.println(string1);
