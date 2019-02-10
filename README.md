@@ -5,7 +5,7 @@ Add your name as a comment at top of every file
 Add a description of the program as a comment at top
 // This program is to see what side a coin flips.
 
-// Head is true, while tails is false.
+// Heads is true, while tails is false.
 
 Add a list and description of Java built-in data types within the user interface or in comments   
 // Types of Data and Ranges:
