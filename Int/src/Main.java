@@ -1,6 +1,9 @@
+Import java.util.Scanner;
+import java.util.Random;
+Import java.util.Arraylist;
 // Marcos Machado
-// This program is to see what side a coin flips.
-// Heads is true, while tails is false.
+// This program is about a scoring game.
+// Less than or eqaul to 1000 is true, more than 1000 is false.
 
 // Types of Data and Ranges:
 // Byte: -128 to 127
@@ -22,26 +25,25 @@ public class Main {
 
     // 1
     boolean bool1 = true;
-    int int1 = 2;
-    double double1 = 2.0;
-    String string1 = "2";
-    System.out.println((double)int1);
+    int Score = 1;
+    double Double1 = 1.0;
+    String String1 = "1";
+    System.out.println((double)Score);
     // Casting means that one file will change to another.
     // For example, int1 becomes a double.
-    
     if (bool1 = true) {
-      System.out.println(string1);
+      System.out.println(String1);
     if (bool1 = false) {
-      System.out.println(double1);
+      System.out.println(Double1);
     }
-    }
+   }
     // A variable is a value that can change depending on the conditions or the
     // information passed to the program.
     
     // Scope is the visibility of variables.
-    final int score = 100; 
+    final int score = 1000; 
     // The final keyword makes the variable a constant (it must be initialized)
-    // Final int score = 100 means that the score will not pass the number 100
+    // Final int score = 1000 means that the score will not pass the num. 1000.
     
   }
 }
