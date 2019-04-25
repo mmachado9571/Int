@@ -1,0 +1,109 @@
+String rank;
+
+void ranking() {
+     System.out.println(“ + rank + ”)
+
+// Parameter
+public class Main2 {
+  
+  public static void main(String[] args) { 
+
+  // Header
+  Scanner input = new Scanner (System.in);
+  Grade ranking = new Grade ();
+  // Call
+  Grade.method();
+   
+  
+  Grade grade1 = new Grade();
+  grade1.rank = “Cocky”;
+  grade1.ranking();
+ 
+  Grade grade2 = new Grade();
+  Grade2.rank = “Bravo”;
+  grade2.ranking();
+
+  Grade grade3 = new Grade();
+  grade3.rank = “Awesome”;
+  grade3.ranking();
+
+  Grade grade4 = new Grade();
+  grade4.rank = “S”;
+  grade4.ranking();
+
+  // Argument
+  System.out.println(“Final Score”);
+
+  double max = Math.floor(1000.9)
+
+  Random randomGen = new Random();
+  int bonus;
+  int numberOfTimesRandomNumberPickedAndPrinted = 1;
+    
+  while (numberOfTimesRandomNumberPickedAndPrinted <= 50) {
+     System.out.println(randomGen.nextInt(5));
+     numberOfTimesRandomNumberPickedAndPrinted++;
+     
+     }
+    for (int numberOfTimes = 1; numberOfTimes <= 50; numberOfTimes++) {
+      System.out.println(randomGen.nextInt(5));
+    }
+     
+     System.out.println(“\nMax reached: “ + Math.floor(1000.9));
+   
+    int myScore = 350; String
+     String scoreString;										           
+     switch (myScore) {
+      if(myScore => 0 && < 250) {                                                                      	
+        System.out.println(grade1.rank); 							
+         }
+      else if(myScore => 250 && < 500) {      
+        System.out.println(grade2.rank); 							
+         }
+      else if(myScore => 500 && <750) {   
+        System.out.println(grade3.rank); 			
+         }
+      else if(myScore => 750 && =<1000) {  
+        System.out.println(grade4.rank); 					
+         }
+      else if(myScore > 1000) {  
+        break;  
+     // Break is used to immediately terminate a loop. 						
+         }
+    final int score() {
+     return myScore() ? 0 : 1000;
+     } 
+    }
+  int player1 = 290;                                                                          
+  int player2 = 180;   
+   if(score1 == score2)  									
+     System.out.println(“TIE”); 
+ // The == operator is used to compare two operands using Boolean.                  
+   if(score1 > score2)				
+     System.out.println(“Player 1 Wins”); 
+   if(score1 < score2)						
+     System.out.println(“Player 2 Wins”);
+   if((score1 == grade2.rank) && (score2 == grade1.rank))	
+     System.out.println(“Player 1 has more style”);   
+ // Java operator precedence determines the order in which the 			    
+ // Operators in an expression are evaluated. 
+  int load = 0;                                                                   
+  int select = 1;
+  int begin = 0;
+    while (load < 6)	
+    {													 
+      System.out.println(“Loading”);                                               
+       load++; {
+         continue; 					
+        // Continue is used to make the loop jump to the next iteration.
+        }											
+       }
+    for(int select=1;select<=5;select++){	
+       System.out.println(“selecting”);		
+       }
+    do{
+       System.out.println(“Fight”);	
+       begin++;		
+         }while(begin <=3);
+     }
+    }
