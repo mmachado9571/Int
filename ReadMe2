@@ -1,9 +1,10 @@
-
+*Create a method with arguments and return values
 String rank;
 
 void ranking() {
      System.out.println(“ + rank + ”)
 
+*Identify a header and parameter in comments
 // Parameter
 public class Main2 {
   
@@ -12,10 +13,10 @@ public class Main2 {
   // Header
   Scanner input = new Scanner (System.in);
   Grade ranking = new Grade ();
+*Identify a method call and argument in comments
   // Call
   Grade.method();
    
-  
   Grade grade1 = new Grade();
   grade1.rank = “Cocky”;
   grade1.ranking();
@@ -35,8 +36,10 @@ public class Main2 {
   // Argument
   System.out.println(“Final Score”);
 
+ *Use the Math class
   double max = Math.floor(1000.9)
-
+  
+ *Use the Random class
   Random randomGen = new Random();
   int bonus;
   int numberOfTimesRandomNumberPickedAndPrinted = 1;
@@ -51,10 +54,11 @@ public class Main2 {
     }
      
      System.out.println(“\nMax reached: “ + Math.floor(1000.9));
-   
+  *Use a switch statement
     int myScore = 350; String
      String scoreString;										           
      switch (myScore) {
+  *Create if/else constructs
       if(myScore => 0 && < 250) {                                                                      	
         System.out.println(grade1.rank); 							
          }
@@ -67,16 +71,20 @@ public class Main2 {
       else if(myScore => 750 && =<1000) {  
         System.out.println(grade4.rank); 					
          }
+    *Use break in a loop with a comment describing what it does
       else if(myScore > 1000) {  
         break;  
      // Break is used to immediately terminate a loop. 						
          }
+   *Create ternary constructs
     final int score() {
      return myScore() ? 0 : 1000;
      } 
     }
+ *Use relational operators
   int player1 = 290;                                                                          
-  int player2 = 180;   
+  int player2 = 180; 
+*Compare two String objects by using the compareTo and equals methods and make a comment describing how == works with objects
    if(score1 == score2)  									
      System.out.println(“TIE”); 
  // The == operator is used to compare two operands using Boolean.                  
@@ -84,24 +92,31 @@ public class Main2 {
      System.out.println(“Player 1 Wins”); 
    if(score1 < score2)						
      System.out.println(“Player 2 Wins”);
+ *Use conditional operators
    if((score1 == grade2.rank) && (score2 == grade1.rank))	
-     System.out.println(“Player 1 has more style”);   
+     System.out.println(“Player 1 has more style”); 
+ *Describe operator precedence as a comment
  // Java operator precedence determines the order in which the 			    
  // Operators in an expression are evaluated. 
   int load = 0;                                                                   
   int select = 1;
   int begin = 0;
-    while (load < 6)	
+  *Create and use while loops
+   while (load < 6)	
     {													 
+  *Use continue in a loop with a comment describing what it does
       System.out.println(“Loading”);                                               
        load++; {
          continue; 					
         // Continue is used to make the loop jump to the next iteration.
         }											
        }
+   *Create and use for loops
+   *Use +, -, *, /, %, ++, --, +=
     for(int select=1;select<=5;select++){	
        System.out.println(“selecting”);		
        }
+   *Create and use do/while loops
     do{
        System.out.println(“Fight”);	
        begin++;		
