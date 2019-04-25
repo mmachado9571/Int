@@ -1,11 +1,12 @@
-PSI 1  
+PSI 1
+class Combo {
 Add your name as a comment at top of every file
 // Marcos Machado
 
 Add a description of the program as a comment at top
-// This program is to see what side a coin flips.
+// This program is about a scoring game.
 
-// Heads is true, while tails is false.
+// Less than or eqaul to 1000 is true, more than 1000 is false.
 
 Add a list and description of Java built-in data types within the user interface or in comments   
 // Types of Data and Ranges:
@@ -50,15 +51,21 @@ Use an int variable with an appropriate name (singular noun, lowerCamelCase)
 Use an double variable with an appropriate name (singular noun, lowerCamelCase) 
 boolean bool1 = true;
 
-    int int1 = 2; 
+    int Score = 1; 
     
-    double double1 = 2.0; 
+    double Double1 = 1.0; 
     
-    System.out.println((double)int1); 
+    string String1 = "1";
+    
+    System.out.println((double)Score); 
+    
+    if (bool1 = true) {
+    
+      System.out.println(String1);
     
     if (bool1 = false) { 
     
-      System.out.println(double1); 
+      System.out.println(Double1); 
       
 Use a String object with an appropriate name (singular noun, lowerCamelCase) 
    int int1 = 2; 
@@ -79,11 +86,11 @@ Define (in English) the term "scope" as it relates to computer programming in a 
 // Scope is the visibility of variables. 
 
 Use final with a variable and describe what it means in a comment   
-final int score = 100;
+final int score = 1000;
 
 // The final keyword makes the variable a constant (it must be initialized)
 
-// Final int score = 100 means that the score will not pass the number 100
+// Final int score = 1000 means that the score will not pass the numb 1000.
 
 Use casting and describe what it means in a comment 
  System.out.println((double)int1);
