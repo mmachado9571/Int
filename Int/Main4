@@ -1,0 +1,44 @@
+public class Main4 {
+  
+ private int punch; 
+ private int kick;
+  
+  public Main4 () {											
+     this(0,0); 	
+     } 
+  
+  public Main4(int f) {										
+     this(f,0);		
+     }
+ 
+  public Main4(int f, int g) {	
+     setControls(f,g);							
+     }
+     
+  public void setControls(int f, int g){		
+      setPunch(f);					
+      setKick(g);				
+      }
+      
+  public void setPunch(int f) {	
+      punch = ((f >= 0 && f <= 2) ? f : 0);		
+      }
+      
+  public void setKick(int g) { 	
+      punch = ((g >= 0 && g <= 2) ? g : 0);		
+      }
+      
+  public int getPunch() {		
+      return punch;		
+      }
+      
+  public int getKick() {	
+      return kick;	
+      }
+      
+  public String toCommand() {		
+      return String.format(“%01d:%01d:%01d”, getPunch(), getKick());
+      super();		
+      System.out.println(“Start the Brawl”);							
+      }
+  }
