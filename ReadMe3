@@ -1,0 +1,99 @@
+*Make a class in a separate file with private fields, public getters and setters, a constructor with and without parameters
+*Overload a method
+*Use super and this to access objects and constructors
+These three instructions are located at Main4.
+
+public class Main3 extends Main4{
+
+   public static void main(String[] args) {
+      Main1 main10bject = new Main1();
+      Main2 main2Object = new Main2();
+      
+      main1Object.setControls();
+      main2Object.setControls();
+ 
+ *Describe inheritance and its benefits   
+// Inheritance uses and derives a subclass in order to
+// Reduce having to write the same object multi. times
+ 
+ *Develop code that makes use of polymorphism
+   Main4 fighter[] = new Main4[2];
+   fighter[0] = new Main1();
+   fighter[1] = new Main2();
+  
+   for(int x=0;x<2;++x) {
+       fighter[x].setControls()
+   } 
+ 
+ *Declare, instantiate, initialize and use a one-dimensional array
+System.out.println(“Index\tValue”);
+int points[] = {30,90,50,100,10};
+int sum = 1;
+
+for(int counter = 1;counter < points.length;counter++) {
+   System.out.println(counter + “\t” + points[counter]);
+   }
+ 
+ *Get a sum of the values in an array using an accumulator.
+for(int counter = 1;counter < points.length;counter++) {
+   sum+=points[counter];
+   }
+
+System.out.println(“The sum of these points is “ +sum);
+ 
+ *Declare, instantiate, initialize and use multi-dimensional arrays
+   int[] values = {250, 500, 750};
+
+   System.out.println(values[2]);
+
+   int[][] grid = {
+        {250, 500, 750},
+        {300, 600},
+        {1, 2, 3, 4}
+   };
+  
+   System.out.println(grid[1][1]);
+   System.out.println(grid[0][2]);
+
+   String[][] texts = new String[2][3];
+
+   texts[0][1] = “Bonus”;
+
+   System.out.println(tetxs[0][1]);
+
+   for(int row=0; row < grid.length; row++) {
+       for(int col=0; col < grid[row].length; col++) {
+         System.out.print(grid[row][col] + “\t”);
+      }
+
+      System.out.println();
+    }
+
+   String[][] words = new String[2][];
+   
+   System.out.println(words[0]);
+
+   words[0] = new String[3]; 
+   
+   words[0][1] = “Sweet”;
+
+  
+ *Effectively utilize exception handling for user input of an int
+  Scanner input = new Scanner(System.in);
+  int y = 1;
+
+  do{
+  try{
+      System.out.println(“Enter first imput: “);
+      int n1 = input.nextInt();
+      System.out.println(“Enter second imput: “);
+      int n2 = input.nextInt();
+      int sum = n1/n2;
+      System.out.println(sum);
+      y = 2;
+    }
+catch(Exception e) {
+     System.out.println(“Impossible”);
+    }
+    }while(y == 1);
+}
